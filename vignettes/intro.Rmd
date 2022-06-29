@@ -1,0 +1,58 @@
+---
+title: "intro"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{intro2}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE,
+  comment = "#>"
+)
+```
+
+Definition
+  : a statement of the exact meaning of a word, especially in a dictionary.
+
+List 
+  : a number of connected items or names written or printed consecutively, 
+    typically one below the other. 
+  : barriers enclosing an area for a jousting tournament.
+
+_italic_
+
+```{r setup}
+#library(mypkg1)
+1+1
+```
+
+```
+#library(mypkg1)
+1+1
+```
+
+
+```{r}
+# Add two numbers together
+add <- function(a, b) a + b
+add(10, 20)
+```
+
+
+
+```r
+# Add two numbers together
+add <- function(a, b) a + b
+add(10, 20)
+## [1] 30
+```
+
+```{r}
+# Add two numbers together
+add <- function(a, b) a + b
+add(10, 20)
+## [1] 30
+```
